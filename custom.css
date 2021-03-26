@@ -1,0 +1,327 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    
+}
+.topp{
+    padding-top:5%;
+
+}
+.bottomm{
+    padding-top:3%;
+}
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 8px 6px -6px #999;
+    height:auto;
+}
+.box-shadow{
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+		  
+		  
+}
+.nav-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+	
+}
+.nav-text:hover{
+    box-shadow: 0px 5px #FF005C;
+    transform: translateY(-0.05em);
+}
+.btn-green{
+    background-color: #00D49C;
+}
+.btn-green:hover{
+    box-shadow: 3px 3px #FF005C;
+    transform: translateY(-0.10em);
+}
+.btn-blue{
+    background-color: #0385B6;
+}
+.btn-blue:hover{
+    box-shadow: 3px 3px #00D49C;
+    transform: translateY(-0.10em);
+}
+.btn-pink{
+    background-color: #FF005C;
+}
+.btn-pink:hover{
+    box-shadow: 3px 3px #00D49C;
+    transform: translateY(-0.10em);
+}
+.center-thing{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;
+	text-align:center;
+}
+.left-thing{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;
+	text-align:left;
+}
+.text-black{
+    color:#000000
+}
+.text-white{
+    color:#ffffff
+}
+.text-green{
+    color:#00D49C
+}
+.text-pink{
+    color:#FF005C
+}
+.text-blue{
+    color:#0385B6
+}
+.roboto{
+    font-family: Roboto;
+	font-style: normal;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-15{
+    font-size: 15px;
+}
+.footer {
+	padding-top:50px;
+	padding-bottom:20px;
+    background-color: rgb(128,128,128, 0.30);
+    font-family: Poppins;
+	font-style: normal;
+	justify-content: center;
+	color:#000000;
+}
+.painting-img{
+    padding-top:100px;
+    padding-bottom:250px;
+    background-image: url(images/painting.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+.landing-slogan{
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	text-align: center;
+}
+.ctaction{
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	text-align: center;
+
+}
+/*search box css starts here*/
+.search-sec{
+    padding-bottom:50px;
+}
+.search-slt{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    height: calc(2.5rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #00D49C;
+    text-transform: capitalize;
+    height: calc(2.5rem + 2px) !important;
+    border-radius:0;
+    color: #000000;
+}
+.wrn-btn:hover{
+	   	box-shadow: 3px 3px #FF005C;
+	   	transform: translateY(-0.10em);
+}
+
+.img-size{
+    border-radius: 8px;
+    height:300px;
+    width:300px;
+}
+
+
+
+
+/* Latest compiled and minified CSS included as External Resource*/
+
+/* Optional theme */
+
+/*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
+body {
+    margin-top:30px;
+}
+.stepwizard-step p {
+    margin-top: 0px;
+    color:#666;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;
+    filter: alpha(opacity=100) !important;*/
+}
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity:1 !important;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.gallery-wrap .img-big-wrap img {
+    height: 450px;
+    width: auto;
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    margin: 7px 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+.checked{
+    color:#00D49C;
+}
+
+/* Chat CSS begin*/
+.chat-box{
+    background: rgb(255, 0, 92, 0.10);
+}
+
+img{ max-width:100%;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+.received_msg {
+  display: inline-block;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #00D49C;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+  width: 100%;
+}
+
+ .sent_msg p {
+  background: #0385B6 none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+}
+
+/* Chat CSS END*/
